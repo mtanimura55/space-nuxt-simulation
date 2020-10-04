@@ -1,11 +1,8 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
-  /*
-   ** Nuxt rendering mode
-   ** See https://nuxtjs.org/api/configuration-mode
-   */
   mode: 'spa',
+  srcDir: 'app/',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -32,7 +29,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['@/assets/css/default.css'],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
