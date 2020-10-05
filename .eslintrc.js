@@ -41,5 +41,6 @@ module.exports = {
       },
     ],
     'unicorn/number-literal-case': 'off',
+    // 'new-cap': 'off'
   },
 }

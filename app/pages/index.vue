@@ -3,8 +3,8 @@
     <h1>選択</h1>
     <v-btn dark @click="selectView"> 切替 </v-btn>
     <div id="app">
-      <rotate-box v-if="view" />
-      <sphere v-else />
+      <RotateBox v-if="view" />
+      <Sphere v-else />
     </div>
   </v-container>
 </template>
